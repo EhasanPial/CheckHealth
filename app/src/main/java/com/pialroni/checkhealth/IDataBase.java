@@ -20,4 +20,7 @@ public interface IDataBase {
     List<UserData> getAllData();
 
     void StopDatabase();
+
+    // TEST
+
 }
