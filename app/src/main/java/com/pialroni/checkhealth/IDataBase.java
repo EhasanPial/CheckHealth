@@ -1,6 +1,5 @@
 package com.pialroni.checkhealth;
 
-import android.service.autofill.UserData;
 
 import java.util.List;
 
@@ -13,11 +12,11 @@ public interface IDataBase {
 
     void UpdateData(UserData userData);
 
-    UserData getData(int id);
+    com.pialroni.checkhealth.UserData getData(int id);
 
     void onCreateDatabase();
 
-    List<UserData> getAllData();
+    List<com.pialroni.checkhealth.UserData> getAllData();
 
     void StopDatabase();
 
